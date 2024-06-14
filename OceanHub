@@ -1,0 +1,58 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "OceanHub", HidePremium = false, SaveConfig = true, IntroText = "OceanHub [RBLX]", ConfigFolder = "OrionTest"})
+
+--Main--
+local Tab = Window:MakeTab({
+	Name = "ⓘ-Main-ⓘ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "©-Credits-©"
+})
+
+Tab:AddLabel("LiamBlue2014 - Script Owner/PC Tester")
+Tab:AddLabel("SharkBITEFan_090 - Script Tester/Mobile Tester")
+Tab:AddLabel("WILL ADD MORE CREDITS IN FUTURE UPDATE")
+
+local Section = Tab:AddSection({
+	Name = "Version"
+})
+
+Tab:AddLabel("VERSION-1")
+
+local Section = Tab:AddSection({
+	Name = "UI Configurations"
+})
+
+Tab:AddLabel("COMING SOON")
+Tab:AddLabel("Made using VCS - Visual Code Studio")
+Tab:AddLabel("DISCORD - liamblue2014.")
+Tab:AddLabel("DM me In Discord and tell me if you Wanna add something or Somethings Broken")
+
+local Tab = Window:MakeTab({
+	Name = "Scripts </>",
+    Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Basic Scripts"
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield FE",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Arsenal Script OP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DatMxkey/Nexware/main/loader.lua"))()
+  	end    
+})
+
+OrionLib:Init()
