@@ -28,6 +28,11 @@ local Section = Tab:AddSection({
 
 Tab:AddLabel("COMING SOON")
 Tab:AddLabel("Made using VCS - Visual Code Studio")
+
+local Section = Tab:AddSection({
+	Name = "Discord"
+})
+
 Tab:AddLabel("DISCORD - liamblue2014.")
 Tab:AddLabel("DM me In Discord and tell me if you Wanna add something or Somethings Broken")
 
@@ -52,6 +57,13 @@ Tab:AddButton({
 	Name = "Arsenal Script OP",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DatMxkey/Nexware/main/loader.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Chat Bypass",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/MRCBV4LSB4KRS/main/Loader"))()
   	end    
 })
 
