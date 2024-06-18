@@ -67,4 +67,11 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Build A Boat AutoFarm",
+	Callback = function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+  	end	
+})
+
 OrionLib:Init()
