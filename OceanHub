@@ -96,4 +96,11 @@ Tab:AddButton({
   	end	
 })
 
+Tab:AddButton({
+	Name = "Treasure Hunt AutoFarm",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
+  	end	
+})
+
 OrionLib:Init()
