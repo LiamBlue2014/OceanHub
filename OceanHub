@@ -74,6 +74,13 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Fake Chat",
 	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiamBlue2014/OceanHub/main/Fake%20Chat'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fake Chat V2",
+	Callback = function()
 		
   	end    
 })
