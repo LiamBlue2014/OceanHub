@@ -60,12 +60,28 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Player Chats"
+})
+
 Tab:AddButton({
 	Name = "Chat Bypass",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/MRCBV4LSB4KRS/main/Loader"))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Fake Chat",
+	Callback = function()
+		
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "AutoFarms"
+})
+
 
 Tab:AddButton({
 	Name = "Build A Boat AutoFarm",
