@@ -89,7 +89,6 @@ local Section = Tab:AddSection({
 	Name = "AutoFarms"
 })
 
-
 Tab:AddButton({
 	Name = "Build A Boat AutoFarm",
 	Callback = function()
