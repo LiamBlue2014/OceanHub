@@ -99,6 +99,17 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
+	Name = "GUIS"
+})
+
+Tab:AddButton({
+	Name = "MM2 Gui",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gladimore/Scripts/main/mm2.txt"))()
+  	end	
+})
+
+local Section = Tab:AddSection({
 	Name = "AutoFarms"
 })
 
