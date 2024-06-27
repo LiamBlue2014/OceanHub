@@ -141,7 +141,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "FE Bring Player",
 	Callback = function()
-		
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiamBlue2014/OceanHub/main/FE%20Bring%20Player'))()
   	end    
 })
 
