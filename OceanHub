@@ -1,7 +1,13 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "OceanHub", HidePremium = false, SaveConfig = true, IntroText = "OceanHub [RBLX]", ConfigFolder = "OrionTest"})
 
-print("By LiamBlue2014 - Welcome to OceanHub!")
+OrionLib:MakeNotification({
+	Name = "Logged In!",
+	Content = "You are currently logged in as ..Player.Name.. " ",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 
 --Main--
 local Tab = Window:MakeTab({
