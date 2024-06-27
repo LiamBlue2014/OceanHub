@@ -143,4 +143,32 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Misc",
+    Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Humanoid"
+})
+
+Tab:AddTextbox({
+	Name = "Walkspeed - 16 Normal",
+	Default = "16",
+	TextDisappear = true,
+	Callback = function(Speed)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Speed
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "JumpPower - 50 Normal",
+	Default = "50",
+	TextDisappear = true,
+	Callback = function(Power)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Power
+	end	  
+})
+
 OrionLib:Init()
