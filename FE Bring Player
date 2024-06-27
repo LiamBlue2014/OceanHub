@@ -1,5 +1,7 @@
 --[ORIGINALLY BY SKYHUB]--
 
+print("ORIGINALLY BY SKYHUB - ONLY USED IN OCEANHUB")
+
 local plrs=game:FindFirstChildOfClass("Players")
 local lp=plrs.LocalPlayer
 local ws=game:FindFirstChildOfClass("Workspace")
